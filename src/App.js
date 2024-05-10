@@ -5,6 +5,9 @@ import React from 'react'
 
 
 function App() {
+  const PORT = process.env.PORT
+  console.log('Success🤟🏼,', `listening on port ${PORT}`)
+
   return (
     <div className="App">
       <header className="App-header">
